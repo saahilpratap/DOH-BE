@@ -1,0 +1,66 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- development
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/src/LockthreatCompliance.Web.Host'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '3.x'
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      cd src/LockthreatCompliance.Web.Host
+      dotnet publish
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)/src/LockthreatCompliance.Web.Host/bin/Debug/netcoreapp3.1/publish'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/LockthreatCompliance.Web.Host.zip'
+    replaceExistingArchive: true
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      cd src/LockthreatCompliance.Migrator
+      dotnet publish
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)/src/LockthreatCompliance.Web.Host/bin/Debug/netcoreapp3.1/publish'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/Migrator.zip'
+    replaceExistingArchive: true
+
+- task: efcore-migration-script-generator-task@1
+  inputs:
+    projectpath: 'src/LockthreatCompliance.EntityFrameworkCore/LockthreatCompliance.EntityFrameworkCore.csproj'
+    databasecontexts: 'LockthreatComplianceDbContext'
+    startupprojectpath: 'src/LockthreatCompliance.Web.Host/LockthreatCompliance.Web.Host.csproj'
+    targetfolder: '$(build.artifactstagingdirectory)/migrations'
+    installdependencies: true
+    eftoolversion: '3.1.0'
+  displayName: 'script file'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

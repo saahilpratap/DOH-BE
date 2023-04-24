@@ -1,0 +1,5 @@
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Client\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Client.csproj.AssemblyReference.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Client\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Client\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Client.AssemblyInfoInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Client\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Client.AssemblyInfo.cs
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Client\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Client.csproj.CoreCompileInputs.cache

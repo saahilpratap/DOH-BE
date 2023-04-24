@@ -1,0 +1,816 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Host\\LockthreatCompliance.Web.Host.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj",
+        "projectName": "LockthreatCompliance.Application.Shared",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application\\LockthreatCompliance.Application.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application\\LockthreatCompliance.Application.csproj",
+        "projectName": "LockthreatCompliance.Application",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application\\LockthreatCompliance.Application.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj"
+              },
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj"
+              },
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Abp.EntityFrameworkCore.EFPlus": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[1.6.7, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj",
+        "projectName": "LockthreatCompliance.Core.Shared",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.Zero.Common": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj",
+        "projectName": "LockthreatCompliance.Core",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj"
+              },
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core.Shared\\LockthreatCompliance.Core.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Abp.AspNetZeroCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.MailKit": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.Zero.Ldap": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Castle.Windsor.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "PayPalCheckoutSdk": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "PayPalHttp": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[35.11.1, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.38.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj",
+        "projectName": "LockthreatCompliance.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.GraphQL\\LockthreatCompliance.GraphQL.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.GraphQL\\LockthreatCompliance.GraphQL.csproj",
+        "projectName": "LockthreatCompliance.GraphQL",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.GraphQL\\LockthreatCompliance.GraphQL.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.GraphQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application.Shared\\LockthreatCompliance.Application.Shared.csproj"
+              },
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Core\\LockthreatCompliance.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "GraphQL.Server.Ui.Playground": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Core\\LockthreatCompliance.Web.Core.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Core\\LockthreatCompliance.Web.Core.csproj",
+        "projectName": "LockthreatCompliance.Web.Core",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Core\\LockthreatCompliance.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application\\LockthreatCompliance.Application.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Application\\LockthreatCompliance.Application.csproj"
+              },
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.EntityFrameworkCore\\LockthreatCompliance.EntityFrameworkCore.csproj"
+              },
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.GraphQL\\LockthreatCompliance.GraphQL.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.GraphQL\\LockthreatCompliance.GraphQL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.AspNetZeroCore.Web": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Abp.HangFire.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.RedisCache": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Abp.ZeroCore.IdentityServer4": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "DevExpress.AspNetCore.Reporting": {
+              "target": "Package",
+              "version": "[21.2.12, )"
+            },
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[21.2.12, )"
+            },
+            "DevExpress.Reporting.Core": {
+              "target": "Package",
+              "version": "[21.2.12, )"
+            },
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "PaulMiami.AspNetCore.Mvc.Recaptcha": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "System.Diagnostics.PerformanceCounter": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Host\\LockthreatCompliance.Web.Host.csproj": {
+      "version": "8.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Host\\LockthreatCompliance.Web.Host.csproj",
+        "projectName": "LockthreatCompliance.Web.Host",
+        "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Host\\LockthreatCompliance.Web.Host.csproj",
+        "packagesPath": "C:\\Users\\saahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\NuGet.Config",
+          "C:\\Users\\saahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/DRGzwlnamqmpx4R5pGdmuSpjlbrjtkElZ7scW49MD3dftOF352/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Core\\LockthreatCompliance.Web.Core.csproj": {
+                "projectPath": "C:\\Users\\saahi\\OneDrive\\Desktop\\git\\DOH_Compliance_BackEnd\\src\\LockthreatCompliance.Web.Core\\LockthreatCompliance.Web.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Abp.Castle.Log4Net": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.0.11, )"
+            },
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[21.2.12, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

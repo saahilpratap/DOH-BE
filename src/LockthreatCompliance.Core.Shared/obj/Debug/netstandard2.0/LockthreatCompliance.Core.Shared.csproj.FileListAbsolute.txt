@@ -1,0 +1,10 @@
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.deps.json
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.csproj.AssemblyReference.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.AssemblyInfoInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.AssemblyInfo.cs
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.csproj.CoreCompileInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.pdb

@@ -1,0 +1,17 @@
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.deps.json
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.Application.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.Application.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.csproj.AssemblyReference.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.AssemblyInfoInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.AssemblyInfo.cs
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.csproj.CoreCompileInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.csproj.CopyComplete
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.GraphQL\obj\Debug\netcoreapp3.1\LockthreatCompliance.GraphQL.pdb

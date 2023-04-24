@@ -1,0 +1,52 @@
+﻿using Abp.Dependency;
+using Abp.Events.Bus.Handlers;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+using System.Linq.Dynamic.Core;
+using Abp.Linq.Extensions;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Abp.Authorization.Users;
+using Abp.Domain.Repositories;
+using Abp.Organizations;
+using LockthreatCompliance.Authorization.Users;
+
+namespace LockthreatCompliance.AuditVendors.Events
+{
+    public class ExternalAuditActivatedEventHandler : IAsyncEventHandler<ExternalAuditActivatedEvent>, ITransientDependency
+    {
+        private readonly IRepository<UserOrganizationUnit, long> _userOrganizationUnitRepository;
+        private readonly IRepository<OrganizationUnit, long> _organizationUnitRepository;
+        private readonly UserManager _userManager;
+        public ExternalAuditActivatedEventHandler(
+              IRepository<UserOrganizationUnit, long> userOrganizationUnitRepository,
+            IRepository<OrganizationUnit, long> organizationUnitRepository,
+            UserManager userManager
+            )
+        {
+            _userOrganizationUnitRepository = userOrganizationUnitRepository;
+            _organizationUnitRepository = organizationUnitRepository;
+            _userManager = userManager;
+        }
+
+        public async Task HandleEventAsync(ExternalAuditActivatedEvent eventData)
+        {
+            var organizationUnit = eventData.AuditVendor.OrganizationUnit;
+            var query = from ouUser in _userOrganizationUnitRepository.GetAll()
+                        join ou in _organizationUnitRepository.GetAll() on ouUser.OrganizationUnitId equals ou.Id
+                        join user in _userManager.Users on ouUser.UserId equals user.Id
+                        where ouUser.OrganizationUnitId == organizationUnit.Id
+                        select new
+                        {
+                            user
+                        };
+            var users = await query.ToListAsync();
+            foreach (var item in users)
+            {
+                item.user.IsActive = true;
+            }
+        }
+    }
+}

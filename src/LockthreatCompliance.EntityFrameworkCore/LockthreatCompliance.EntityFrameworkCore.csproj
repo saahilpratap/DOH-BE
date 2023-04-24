@@ -1,0 +1,149 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props"></Import>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <RootNamespace>LockthreatCompliance</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20200305145558_Add_Dynamic_Entity_Parameters.cs" />
+    <Compile Remove="Migrations\20200305145558_Add_Dynamic_Entity_Parameters.Designer.cs" />
+    <Compile Remove="Migrations\20200412064345_Added-Table-Assessments.cs" />
+    <Compile Remove="Migrations\20200412064345_Added-Table-Assessments.Designer.cs" />
+    <Compile Remove="Migrations\20200412072139_Added-Table-Exception.cs" />
+    <Compile Remove="Migrations\20200412072139_Added-Table-Exception.Designer.cs" />
+    <Compile Remove="Migrations\20200412072721_Added-Table-ExternalAssessments.cs" />
+    <Compile Remove="Migrations\20200412072721_Added-Table-ExternalAssessments.Designer.cs" />
+    <Compile Remove="Migrations\20200412111305_Added-Table-ExternalAssessments.cs" />
+    <Compile Remove="Migrations\20200412111305_Added-Table-ExternalAssessments.Designer.cs" />
+    <Compile Remove="Migrations\20200412112339_Added-Table-ExternalAssessments.cs" />
+    <Compile Remove="Migrations\20200412112339_Added-Table-ExternalAssessments.Designer.cs" />
+    <Compile Remove="Migrations\20200412114954_Added-Table-Assessments-And-AssessmentAgreementResponses.cs" />
+    <Compile Remove="Migrations\20200412114954_Added-Table-Assessments-And-AssessmentAgreementResponses.Designer.cs" />
+    <Compile Remove="Migrations\20200412124106_Added-Table-FindingReports.cs" />
+    <Compile Remove="Migrations\20200412124106_Added-Table-FindingReports.Designer.cs" />
+    <Compile Remove="Migrations\20200412124925_Added-Table-FindingReports.cs" />
+    <Compile Remove="Migrations\20200412124925_Added-Table-FindingReports.Designer.cs" />
+    <Compile Remove="Migrations\20200412130629_update-Table-ReviewQuestion-add-filed-Attachments.cs" />
+    <Compile Remove="Migrations\20200412130629_update-Table-ReviewQuestion-add-filed-Attachments.Designer.cs" />
+    <Compile Remove="Migrations\20200412131158_Added-Table-AssessmentSubmissions.cs" />
+    <Compile Remove="Migrations\20200412131158_Added-Table-AssessmentSubmissions.Designer.cs" />
+    <Compile Remove="Migrations\20200428112322_added-externalQuestions-table.cs" />
+    <Compile Remove="Migrations\20200428112322_added-externalQuestions-table.Designer.cs" />
+    <Compile Remove="Migrations\20200428112659_added-ExternalAssessmentQuestion-table.cs" />
+    <Compile Remove="Migrations\20200428112659_added-ExternalAssessmentQuestion-table.Designer.cs" />
+    <Compile Remove="Migrations\20200428113248_added-ExternalAssessmentQuestion-table.cs" />
+    <Compile Remove="Migrations\20200428113248_added-ExternalAssessmentQuestion-table.Designer.cs" />
+    <Compile Remove="Migrations\20200430055029_added_ExternalAssessmentCRQuestionare_Tbl.cs" />
+    <Compile Remove="Migrations\20200430055029_added_ExternalAssessmentCRQuestionare_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200430100048_added_ExternalControlRequirementQuestions_Tbl.cs" />
+    <Compile Remove="Migrations\20200430100048_added_ExternalControlRequirementQuestions_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200430101013_added_ExternalAssessmentCRQuestionare_Tbl.cs" />
+    <Compile Remove="Migrations\20200430101013_added_ExternalAssessmentCRQuestionare_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200430110227_added_ExternalAssessmentQuestionResponse_Tbl.cs" />
+    <Compile Remove="Migrations\20200430110227_added_ExternalAssessmentQuestionResponse_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200506120651_added_InternalAssessmentScheduleDatails_Tbl.cs" />
+    <Compile Remove="Migrations\20200506120651_added_InternalAssessmentScheduleDatails_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200511085501_Update_Colmn_Domain_in_CR.cs" />
+    <Compile Remove="Migrations\20200511085501_Update_Colmn_Domain_in_CR.Designer.cs" />
+    <Compile Remove="Migrations\20200522062924_Added_AssessmentRequestClarifications_Table.cs" />
+    <Compile Remove="Migrations\20200522062924_Added_AssessmentRequestClarifications_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200602075128_Added_EAWPTable_DocumentTble_Change.cs" />
+    <Compile Remove="Migrations\20200602075128_Added_EAWPTable_DocumentTble_Change.Designer.cs" />
+    <Compile Remove="Migrations\20200604112221_Add_ExternalAssessmentScheduleDetails_Tbl.cs" />
+    <Compile Remove="Migrations\20200604112221_Add_ExternalAssessmentScheduleDetails_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200604112547_updated_ExternalAssessment_Tbl.cs" />
+    <Compile Remove="Migrations\20200604112547_updated_ExternalAssessment_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200605114216_Update-ExternalAssessment_Table.cs" />
+    <Compile Remove="Migrations\20200605114216_Update-ExternalAssessment_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200605114532_update_colm_ExtAssSch_Tble.cs" />
+    <Compile Remove="Migrations\20200605114532_update_colm_ExtAssSch_Tble.Designer.cs" />
+    <Compile Remove="Migrations\20200605115934_RemoveFK_EXTASS.cs" />
+    <Compile Remove="Migrations\20200605115934_RemoveFK_EXTASS.Designer.cs" />
+    <Compile Remove="Migrations\20200605120243_RemoveFK_EXTASS.cs" />
+    <Compile Remove="Migrations\20200605120243_RemoveFK_EXTASS.Designer.cs" />
+    <Compile Remove="Migrations\20200605122809_update-ExtAssSCH_Tbl.cs" />
+    <Compile Remove="Migrations\20200605122809_update-ExtAssSCH_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200610074451_added_auditProject_tble.cs" />
+    <Compile Remove="Migrations\20200610074451_added_auditProject_tble.Designer.cs" />
+    <Compile Remove="Migrations\20200610093944_added_AuditMeetings_tbl.cs" />
+    <Compile Remove="Migrations\20200610093944_added_AuditMeetings_tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200610100817_added_CertificateRegistrations_tbl.cs" />
+    <Compile Remove="Migrations\20200610100817_added_CertificateRegistrations_tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200610102902_added_AuditDocumentPath_tbl.cs" />
+    <Compile Remove="Migrations\20200610102902_added_AuditDocumentPath_tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200610133428_Added_IRM_Relation_tbl.cs" />
+    <Compile Remove="Migrations\20200610133428_Added_IRM_Relation_tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200617094153_updated_businessEntity_tbl.cs" />
+    <Compile Remove="Migrations\20200617094153_updated_businessEntity_tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200618135502_updated_entityGroup_member.cs" />
+    <Compile Remove="Migrations\20200618135502_updated_entityGroup_member.Designer.cs" />
+    <Compile Remove="Migrations\20200619045714_added_AuditMeeting_Tbl.cs" />
+    <Compile Remove="Migrations\20200619045714_added_AuditMeeting_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200622103605_added_vendorId_FindingReport.cs" />
+    <Compile Remove="Migrations\20200622103605_added_vendorId_FindingReport.Designer.cs" />
+    <Compile Remove="Migrations\20200623102005_Added_IncidentRelated_Table.cs" />
+    <Compile Remove="Migrations\20200623102005_Added_IncidentRelated_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200629041710_added_FacilityTypeSizeSetting_Tbl.cs" />
+    <Compile Remove="Migrations\20200629041710_added_FacilityTypeSizeSetting_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200629043238_added_FacilityTypeSizeSetting_Tbl.cs" />
+    <Compile Remove="Migrations\20200629043238_added_FacilityTypeSizeSetting_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200629124811_added_GroupRelatedQuestion_Tbl.cs" />
+    <Compile Remove="Migrations\20200629124811_added_GroupRelatedQuestion_Tbl.Designer.cs" />
+    <Compile Remove="Migrations\20200706112251_update-table-AuditMeeting-added-new-colums-MeetingStage.cs" />
+    <Compile Remove="Migrations\20200706112251_update-table-AuditMeeting-added-new-colums-MeetingStage.Designer.cs" />
+    <Compile Remove="Migrations\20200708030041_Added-Table-QuestResponse.cs" />
+    <Compile Remove="Migrations\20200708030041_Added-Table-QuestResponse.Designer.cs" />
+    <Compile Remove="Migrations\20200719115455_remove-table-Domain-code.cs" />
+    <Compile Remove="Migrations\20200719115455_remove-table-Domain-code.Designer.cs" />
+    <Compile Remove="Migrations\20200719123424_Added-colum-table-code.cs" />
+    <Compile Remove="Migrations\20200719123424_Added-colum-table-code.Designer.cs" />
+    <Compile Remove="Migrations\20200723171303_added_CertificationProposal_table.cs" />
+    <Compile Remove="Migrations\20200723171303_added_CertificationProposal_table.Designer.cs" />
+    <Compile Remove="Migrations\20200727173716_added_AuditProjectId_in_AuditReportEntities_table.cs" />
+    <Compile Remove="Migrations\20200727173716_added_AuditProjectId_in_AuditReportEntities_table.Designer.cs" />
+    <Compile Remove="Migrations\20200727183014_added_        public  string AuditConclusions { get%3b set%3b }_in_AuditReportEntities_table.cs" />
+    <Compile Remove="Migrations\20200727183014_added_        public  string AuditConclusions { get%3b set%3b }_in_AuditReportEntities_table.Designer.cs" />
+    <Compile Remove="Migrations\20200727201452_remove_relation_between_auditReport_in_AuditReportEntities_table.cs" />
+    <Compile Remove="Migrations\20200727201452_remove_relation_between_auditReport_in_AuditReportEntities_table.Designer.cs" />
+    <Compile Remove="Migrations\20200916090728_added-table-Authorityworkflowactors.cs" />
+    <Compile Remove="Migrations\20200916090728_added-table-Authorityworkflowactors.Designer.cs" />
+    <Compile Remove="Migrations\20201102052005_added-filed-AuditProjectId-CertificationProposals.cs" />
+    <Compile Remove="Migrations\20201102052005_added-filed-AuditProjectId-CertificationProposals.Designer.cs" />
+    <Compile Remove="Migrations\20201112113415_Added-table-AuditProjectStatus.cs" />
+    <Compile Remove="Migrations\20201112113415_Added-table-AuditProjectStatus.Designer.cs" />
+    <Compile Remove="Migrations\20201221123729_add_businessRisk_table.cs" />
+    <Compile Remove="Migrations\20201221123729_add_businessRisk_table.Designer.cs" />
+    <Compile Remove="Migrations\20210101103136_add_table_Exceptions.cs" />
+    <Compile Remove="Migrations\20210101103136_add_table_Exceptions.Designer.cs" />
+    <Compile Remove="Migrations\20210607054849_added_BusinessEntityAdminChangeRequest_table.cs" />
+    <Compile Remove="Migrations\20210607054849_added_BusinessEntityAdminChangeRequest_table.Designer.cs" />
+    <Compile Remove="Migrations\20210930042935_added_CertificateQRCode_table.cs" />
+    <Compile Remove="Migrations\20210930042935_added_CertificateQRCode_table.Designer.cs" />
+    <Compile Remove="Migrations\20220330085504_added_EntityOtherType_column_in_BusinessEntity_table.cs" />
+    <Compile Remove="Migrations\20220330085504_added_EntityOtherType_column_in_BusinessEntity_table.Designer.cs" />
+    <Compile Remove="Migrations\20221111094946_added_PatientAuthenticationPlatforms_table.cs" />
+    <Compile Remove="Migrations\20221111094946_added_PatientAuthenticationPlatforms_table.Designer.cs" />
+    <Compile Remove="Migrations\20221123111932_Added_table_TableTopExerciseQuestion.cs" />
+    <Compile Remove="Migrations\20221123111932_Added_table_TableTopExerciseQuestion.Designer.cs" />
+    <Compile Remove="Migrations\20221123112554_Added_table_TableTopExerciseQuestion.cs" />
+    <Compile Remove="Migrations\20221123112554_Added_table_TableTopExerciseQuestion.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LockthreatCompliance.Core\LockthreatCompliance.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.deps.json
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Application.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Application.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\bin\Debug\netcoreapp3.1\LockthreatCompliance.Core.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.csproj.AssemblyReference.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.AssemblyInfoInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.AssemblyInfo.cs
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.csproj.CoreCompileInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.csproj.CopyComplete
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Core\obj\Debug\netcoreapp3.1\LockthreatCompliance.Core.pdb

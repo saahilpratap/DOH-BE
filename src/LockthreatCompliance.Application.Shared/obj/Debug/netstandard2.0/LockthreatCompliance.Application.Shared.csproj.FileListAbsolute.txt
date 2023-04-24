@@ -1,0 +1,13 @@
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.deps.json
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\bin\Debug\netstandard2.0\LockthreatCompliance.Core.Shared.pdb
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.csproj.AssemblyReference.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.AssemblyInfoInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.AssemblyInfo.cs
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.csproj.CoreCompileInputs.cache
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.csproj.CopyComplete
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.dll
+C:\Users\saahi\OneDrive\Desktop\New folder\DOH_Compliance_BackEnd\src\LockthreatCompliance.Application.Shared\obj\Debug\netstandard2.0\LockthreatCompliance.Application.Shared.pdb

@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <Import Project="..\..\common.props"></Import>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>LockthreatCompliance.Web.Core</AssemblyName>
+    <PackageId>LockthreatCompliance.Web.Core</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+    <RootNamespace>LockthreatCompliance.Web</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DXServices\Reports\AuditLogRpt.repx" />
+    <None Remove="DXServices\Reports\AuditMainReport.vsrepx" />
+    <None Remove="DXServices\Reports\CertificationProposalReport.vsrepx" />
+    <None Remove="DXServices\Reports\CorrectiveActionPlanStage1.vsrepx" />
+    <None Remove="DXServices\Reports\CorrectiveActionPlanStage2.vsrepx" />
+    <None Remove="DXServices\Reports\CorrectiveActionPlan_Stage_1_and_Stage_2.vsrepx" />
+    <None Remove="DXServices\Reports\FindingReportAllStageWiseNew.vsrepx" />
+    <None Remove="DXServices\Reports\NewFindingsReportStage1.vsrepx" />
+    <None Remove="DXServices\Reports\NewFindingsReportStage2.vsrepx" />
+    <None Remove="HealthCheck\FindingReportAllStageWise.vsrepx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DXServices\Reports\AuditLogRpt.repx" />
+    <EmbeddedResource Include="DXServices\Reports\AuditMainReport.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\CertificationProposalReport.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\CorrectiveActionPlanStage1.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\CorrectiveActionPlanStage2.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\CorrectiveActionPlan_Stage_1_and_Stage_2.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\FindingReportAllStageWiseNew.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\NewFindingsReportStage1.vsrepx" />
+    <EmbeddedResource Include="DXServices\Reports\NewFindingsReportStage2.vsrepx" />
+    <EmbeddedResource Include="HealthCheck\FindingReportAllStageWise.vsrepx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LockthreatCompliance.GraphQL\LockthreatCompliance.GraphQL.csproj" />
+    <ProjectReference Include="..\LockthreatCompliance.Application\LockthreatCompliance.Application.csproj" />
+    <ProjectReference Include="..\LockthreatCompliance.EntityFrameworkCore\LockthreatCompliance.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="5.5.0" />
+    <PackageReference Include="Abp.AspNetZeroCore.Web" Version="2.0.0" />
+    <PackageReference Include="DevExpress.Data" Version="21.2.12" />
+	<PackageReference Include="DevExpress.AspNetCore.Reporting" Version="21.2.12" />
+	<PackageReference Include="DevExpress.Reporting.Core" Version="21.2.12" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.1" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.9" />
+    <PackageReference Include="PaulMiami.AspNetCore.Mvc.Recaptcha" Version="1.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="5.2.1" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.ZeroCore.IdentityServer4" Version="5.5.0" />
+    <PackageReference Include="Abp.AspNetCore" Version="5.5.0" />
+    <PackageReference Include="Abp.HangFire.AspNetCore" Version="5.5.0" />
+    <PackageReference Include="Abp.RedisCache" Version="5.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.7.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="4.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="3.1.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DXServices\Reports\AuditLogRpt.cs">
+      <DependentUpon>AuditLogRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\AuditLogRpt.Designer.cs">
+      <DependentUpon>AuditLogRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\AuditMainReport.cs">
+      <DependentUpon>AuditMainReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\AuditMainReport.Designer.cs">
+      <DependentUpon>AuditMainReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CertificationProposalReport.cs">
+      <DependentUpon>CertificationProposalReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CertificationProposalReport.Designer.cs">
+      <DependentUpon>CertificationProposalReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CorrectiveActionPlanStage1.cs">
+      <DependentUpon>CorrectiveActionPlanStage1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CorrectiveActionPlanStage1.Designer.cs">
+      <DependentUpon>CorrectiveActionPlanStage1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CorrectiveActionPlanStage2.cs">
+      <DependentUpon>CorrectiveActionPlanStage2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CorrectiveActionPlanStage2.Designer.cs">
+      <DependentUpon>CorrectiveActionPlanStage2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CorrectiveActionPlan_Stage_1_and_Stage_2.cs">
+      <DependentUpon>CorrectiveActionPlan_Stage_1_and_Stage_2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\CorrectiveActionPlan_Stage_1_and_Stage_2.Designer.cs">
+      <DependentUpon>CorrectiveActionPlan_Stage_1_and_Stage_2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\FindingReportAllStageWiseNew.cs">
+      <DependentUpon>FindingReportAllStageWiseNew.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\FindingReportAllStageWiseNew.Designer.cs">
+      <DependentUpon>FindingReportAllStageWiseNew.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\NewFindingsReportStage1.cs">
+      <DependentUpon>NewFindingsReportStage1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\NewFindingsReportStage1.Designer.cs">
+      <DependentUpon>NewFindingsReportStage1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\NewFindingsReportStage2.cs">
+      <DependentUpon>NewFindingsReportStage2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="DXServices\Reports\NewFindingsReportStage2.Designer.cs">
+      <DependentUpon>NewFindingsReportStage2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="HealthCheck\FindingReportAllStageWise.cs">
+      <DependentUpon>FindingReportAllStageWise.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="HealthCheck\FindingReportAllStageWise.Designer.cs">
+      <DependentUpon>FindingReportAllStageWise.vsrepx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props"></Import>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LockthreatCompliance</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="FacilitySubtypes\IFacilitySubTypeAppService.cs~RF2439516b.TMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Web.Common" Version="5.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LockthreatCompliance.Core.Shared\LockthreatCompliance.Core.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="QuestResponse\Dto\" />
+  </ItemGroup>
+</Project>
